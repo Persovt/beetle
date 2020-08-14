@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:ital@0;1&display=swap");
+.page {
+  display: grid;
+  grid-auto-columns: 1fr auto 1fr; }
+
+/*==================-HEADER-================== */
+.header {
+  background-color: #5EC2E6;
+  font-family: Montserrat; }
+
+.navbar {
+  padding: 25px 0; }
+
+.navbar-brand {
+  font-size: 28px; }
+
+.navbar-brand, .nav-link {
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 24px; }
+
+.navbar-brand:hover, .nav-link:hover {
+  color: #dddddd; }
+
+.nav-link {
+  margin: 0 20px;
+  padding: 0;
+  font-size: 14px;
+  text-transform: uppercase; }
+
+.nav-active {
+  border-bottom-width: 3px;
+  border-color: white;
+  border-bottom-style: solid; }
+
+/*==================-HEADER-================== */
+.arrow-ciricle-o-down {
+  margin: 0 auto;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  position: relative; }
+
+.arrow-ciricle-o-down::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #fff;
+  height: 20px; }
+
+.arrow-ciricle-o-down::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 7px;
+  transform: rotate(45deg) translate(-72%, 0);
+  -webkit-transform: rotate(45deg) translate(-72%, 0); }
+
+.section-1 {
+  background-color: #5EC2E6;
+  background-image: url("../../img/background.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+.designer {
+  text-align: center;
+  padding-bottom: 55px; }
+  .designer__title-h1, .designer__title-h5 {
+    color: #ffffff;
+    font-family: Montserrat;
+    text-transform: uppercase; }
+  .designer__title-h1 {
+    padding-top: 282px;
+    margin: 0;
+    font-size: 60px;
+    font-weight: 700; }
+  .designer__title-h5 {
+    padding-bottom: 215px;
+    font-size: 18px;
+    font-weight: 400; }
